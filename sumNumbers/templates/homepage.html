@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HomePage</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<body>
+<div class="bg-img">
+  <form action = "{% url 'sum' %}">
+    <h1>Prime Number</h1>
+
+    <label for="number"><b>Enter the number</b></label>
+    <input type="text" placeholder="Enter Number" name="number" required>
+    <br>
+    <br>
+
+    <label for="submit"><b>Click here to check</b></label>
+    <button type="submit" class="btn"><b><h2>Submit</h2></b></button>
+  </form>
+</div>
+
+
+
+</body>
+</html>
