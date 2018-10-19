@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Calculator</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<body>
+<div class="bg-img">
+  <form action = "{% url 'calculate' %}">
+    <h1>Calculator</h1>
+
+    <label for="number"><b>Enter First number</b></label>
+    <input type="text" placeholder="1,2,3" name="Fnumber" required>
+    <br>
+    <br>
+
+    <label for="number"><b>Enter Second number</b></label>
+    <input type="text" placeholder="4,5,6" name="Snumber" required>
+    <br>
+    <br>
+
+    <label for="submit"><b>Click here to check</b></label>
+    <button type="submit" class="btn"><b><h2>Calculate</h2></b></button>
+  </form>
+</div>
+
+<br>
+<br>
+
+<div class="bg-img">
+  <form action = "{% url 'check' %}">
+
+    <label for="submit"><b>Click here to check</b></label>
+    <button type="submit" class="btn"><b><h2>check</h2></b></button>
+  </form>
+</div>
+
+
+
+</body>
+</html>
