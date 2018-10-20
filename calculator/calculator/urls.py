@@ -6,6 +6,6 @@ from . import views
 urlpatterns = [
     url('^admin/',admin.site.urls),
     url('^$',views.homepage,name='homepage'),
-    url('^calculate/',views.calculate,name='calculate'),
-    url('^check/',views.check,name='check'),
+    url('^addition/',views.addition,name='addition'),
+    url('^subtract/',views.subtract,name='subtract'),
 ]
